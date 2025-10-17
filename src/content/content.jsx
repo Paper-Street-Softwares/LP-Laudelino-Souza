@@ -442,6 +442,9 @@ const content = {
         },
       },
     },
+    latters: {
+      linkButton: "http://lattes.cnpq.br/0071915299255407",
+    },
     maps: {
       minitag: "A_Definir",
       title: "A_Definir",
