@@ -18,6 +18,7 @@ import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
 import News from "../components/sections/News";
 import Testimonial from "../components/sections/lp01/Testimonials";
+import Lattes from "../components/sections/Lattes";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -75,7 +76,7 @@ export default function Index() {
         paragraphsModal={false}
         iconsWithModal={false}
       />
-
+      <Lattes colorMode={colorMode} />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
 

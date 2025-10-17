@@ -13,7 +13,7 @@ export default function CtaSecondary({ colorMode }) {
 
   // Definir classes de tema
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
+    dark: "bg-bgFixedDark",
     light: "bg-bgSectionOpacityLight",
     default: "squares",
   };

@@ -17,7 +17,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
 
   // Classes de tema
   const bgClasses = {
-    dark: "bg-bgFixedDark",
+    dark: "bg-bgSectionOpacityDark",
     light: "bg-bgFixedLight",
     default: "bg-bgSectionDark",
   };

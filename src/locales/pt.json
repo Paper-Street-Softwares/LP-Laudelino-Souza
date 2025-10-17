@@ -18,8 +18,8 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO EM CAMAÇARI - BA",
-    "title": "De corretor a referência <span class=\"text-primary font-bold\">no Direito</span>",
+    "miniTag": "Advocacia  & Assessoria Jurídica",
+    "title": "De corretor de imóveis a referência na <span class=\"text-primary font-bold\">advocacia imobiliária</span>",
     "subtitle": "Mais de 16 anos transformando experiências do mercado imobiliário em soluções jurídicas seguras.",
     "ctaButtonText": "Descubra essa trajetória",
     "obsHero": {
@@ -80,11 +80,17 @@
     "subtitle": "A_Definir",
     "embedsrc": "A_Definir"
   },
+  "latters": {
+    "miniTag": "Credenciais",
+    "title": "Currículo Lattes",
+    "subtitle": "Conheça minha trajetória acadêmica e profissional detalhada no CNPq.",
+    "label": "Acessar Currículo Lattes"
+  },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. LAUDELINO SOUZA NETO",
+    "miniTag": "QUEM É O DR. LAUDELINO FRANCISCO DE SOUZA NETO",
     "title": "Minha trajetória",
     "subtitle": "Experiência que une o mercado imobiliário e o Direito em soluções seguras.",
     "buttonModalLabelAbout": "Continuar lendo",
