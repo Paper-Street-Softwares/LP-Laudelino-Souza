@@ -76,7 +76,7 @@ export default function Index() {
         paragraphsModal={false}
         iconsWithModal={false}
       />
-      <Lattes />
+      <Lattes colorMode={colorMode} />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
 

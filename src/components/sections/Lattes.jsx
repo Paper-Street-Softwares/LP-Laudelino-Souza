@@ -12,7 +12,7 @@ export default function Lattes({ colorMode }) {
 
   // Define background and text colors based on colorMode
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
+    dark: "bg-bgFixedDark",
     light: "bg-bgSectionOpacityLight",
     default: "squares",
   };

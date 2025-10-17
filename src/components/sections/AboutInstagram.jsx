@@ -14,7 +14,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
 
   // Definir classes de tema
   const bgClasses = {
-    dark: "bg-bgFixedDark",
+    dark: "bg-bgSectionOpacityDark",
     light: "bg-bgFixedLight",
     default: "bg-bgSectionDark",
   };
