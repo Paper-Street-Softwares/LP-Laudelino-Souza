@@ -4,6 +4,7 @@ import Button from "../interactives/Button";
 import { useTranslation } from "react-i18next";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
+import { Trans } from "react-i18next";
 
 export default function Hero({
   colorMode,
@@ -42,9 +43,18 @@ export default function Hero({
 
         <MotionDivDownToUp>
           <div
-            className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
+            className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[50px] desktop1:leading-[45px] desktop2:leading-[55px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
           >
-            <h1 dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
+            <h1 className="text-title4 phone3:text-title5 tablet1:text-[40px] desktop1:text-[35px] mb-2">
+              <Trans
+                i18nKey="hero.title"
+                components={{
+                  span: (
+                    <span className="text-primary font-bold text-[40px] desktop1:text-[40px] desktop2:text-[50px]" />
+                  ),
+                }}
+              />
+            </h1>
           </div>
         </MotionDivDownToUp>
 
